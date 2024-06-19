@@ -188,7 +188,7 @@ def chat():
 # Serve the frontend
 @app2.route('/')
 def index():
-    return send_from_directory('.', 'index.html')
+    return send_from_directory('.','chatbot.html')
 
 if __name__ == '__main__':
     app2.run(debug=True)
